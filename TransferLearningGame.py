@@ -32,11 +32,11 @@ def append_feature(dataframe, istest):
     return X
 
 
-train_df = pd.DataFrame(pd.read_csv("/Users/zoom/Documents/迁移学习/new-data/A_train.csv"))
+train_df = pd.DataFrame(pd.read_csv("E:\student/A_train.csv"))
 train_df.fillna(value=-999999)
-train_df1 = pd.DataFrame(pd.read_csv("/Users/zoom/Documents/迁移学习/new-data/B_train.csv"))
+train_df1 = pd.DataFrame(pd.read_csv("E:\student/B_train.csv"))
 train_df1.fillna(value=-999999)
-test_df = pd.DataFrame(pd.read_csv("/Users/zoom/Documents/迁移学习/new-data/B_test.csv"))
+test_df = pd.DataFrame(pd.read_csv("E:\student/B_test.csv"))
 test_df.fillna(value=-999999)
 
 train_data_T = train_df.values
